@@ -31,9 +31,9 @@
 
       <nav class="navbar  px-5" style="background-color: #211516;">
         <div class="container-fluid">
-          <a href="" class="navbar-brand">BIBLIOTECA STAR WARS</a>
-          <form class="d-flex" role="search">
-            <input class="form-control " type="search" placeholder="Buscar en la pagina" aria-label="Search">
+          <a href="index.php" class="navbar-brand">BIBLIOTECA STAR WARS</a>
+          <form action="busqueda.php" class="d-flex" role="search">
+            <input class="form-control " name="q" type="search" placeholder="Buscar en la pagina" aria-label="Search">
             <button class="btn btn-light px-3 " type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
           </form>
         </div>
@@ -65,7 +65,7 @@
                 <a class="nav-link" href="previews.php?categoria=peliculas">PELICULAS</a>
               </li>
             </ul>
-            <a  href="" class="nav-link">
+            <a  href="creditos.php" class="nav-link">
               CREDITOS
             </a >
           </div>

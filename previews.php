@@ -12,7 +12,8 @@ $tablas = [
     'personajes' => 'personaje',
     'naves' => 'nave',
     'sables' => 'sable',
-    'peliculas' => 'pelicula'
+    'peliculas' => 'pelicula',
+    
 ];
 
 
@@ -32,6 +33,8 @@ $categorias = listar_todo($conn, $tabla);
 /* echo "<pre>";
 var_dump($categorias);
 echo "</pre>"; */
+/* obtener nombre del producto */
+
 
 
 ?>
@@ -40,11 +43,11 @@ echo "</pre>"; */
 
 <main >
 
-<h1 class="titulo text-center">Guia de  </h1>
+<h1 class="titulo text-center">Guia de  <?= $tabla ?> </h1>
 
 <div class="linea"></div>
 
-<h2 class="titulo text-center mt-3"> Resultado de la busqueda </h2>
+<h2 class=" text-center mt-3"> Resultado de la busqueda </h2>
 
 
 <div class="container">

@@ -39,7 +39,7 @@ require_once "utils/db_conenection.php"
     <div class="row p-3 mb-5 bg-white d-flex align-items-center justify-content-center">
 
         <div class="col-4">
-            <img width="300px" class="d-block mx-auto img-fluid" src="img/Star Wars personajes.jpg" alt="home">
+            <img width="300px" class="i d-block mx-auto img-fluid" src="img/Star Wars personajes.jpg" alt="home">
         </div>
 
         <div class="col-8">
@@ -48,7 +48,7 @@ require_once "utils/db_conenection.php"
                 <b class=" titulo fs-3">PERSONAJES</b>
 
                 Star Wars, conocida también en español como La guerra de las galaxias. Su trama describe las vivencias de un grupo de personajes que habitan en una galaxia ficticia e interactúan con elementos como «la Fuerza», un campo de energía metafísico y omnipresente que posee un «lado luminoso» impulsado por la sabiduría, la nobleza y la justicia y utilizado por los Jedi, y un «lado oscuro» usado por los Sith y provocado por la ira, el miedo, el odio y la desesperación.
-                <a class="btn boton-caja " href="">Ver más</a>
+                <a class="btn boton-caja " href="previews.php?categoria=personajes">Ver más</a>
             </p>
         </div>
 
@@ -66,12 +66,12 @@ require_once "utils/db_conenection.php"
                 <b class=" titulo fs-3">NAVES</b>
 
                 Las naves son vehículos tripulado utilizado para viajar en el espacio real. Datando de miles de años atras, las primeras naves estelares transportaban espaciadores a mundos nuevos a través de procesos de congelación criogénica.
-                <a class="btn boton-caja " href="">Ver más</a>
+                <a class="btn boton-caja " href="previews.php?categoria=naves">Ver más</a>
             </p>
         </div>
 
         <div class="col-4">
-            <img width="300px" class="d-block mx-auto img-fluid" src="img/star wars naves.jpg" alt="home">
+            <img width="300px" class="i d-block mx-auto img-fluid" src="img/star wars naves.jpg" alt="home">
         </div>
 
 
@@ -83,7 +83,7 @@ require_once "utils/db_conenection.php"
     <div class="row p-3 mb-5 bg-white d-flex align-items-center justify-content-center">
 
         <div class="col-4">
-            <img width="300px" class="d-block mx-auto img-fluid" src="img/star wars sables.jpg" alt="home">
+            <img width="300px" class="i d-block mx-auto img-fluid" src="img/star wars sables.jpg" alt="home">
         </div>
 
         <div class="col-8">
@@ -92,7 +92,7 @@ require_once "utils/db_conenection.php"
                 <b class=" titulo fs-3">SABLES</b>
 
                 Los Sables de luz, a veces denominado como espada láser, era un arma utilizada por los Jedi, los Sith y otros sensibles a la Fuerza. Los sables de luz consisten en una hoja de plasma, impulsada por un cristal kyber, que se emite desde una empuñadura usualmente metálica y se podía cerrar a voluntad. Es un arma que requiere habilidad y entrenamiento, y se mejora mucho cuando se usa junto con la Fuerza.
-                <a class="btn boton-caja " href="">Ver más</a>
+                <a class="btn boton-caja " href="previews.php?categoria=sables">Ver más</a>
             </p>
         </div>
 
@@ -110,12 +110,12 @@ require_once "utils/db_conenection.php"
                 <b class=" titulo fs-3">PELICULAS</b>
 
                 Star Wars, es una franquicia y universo compartido de fantasía compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense George Lucas en la década de 1970, y producidas y distribuidas inicialmente por 20th Century Fox y posteriormente por The Walt Disney Company a partir de 2012..
-                <a class="btn boton-caja " href="">Ver más</a>
+                <a class="btn boton-caja " href="previews.php?categoria=peliculas">Ver más</a>
             </p>
         </div>
 
         <div class="col-4">
-            <img width="300px" class="d-block mx-auto img-fluid" src="img/star wars peliculas.jpg" alt="home">
+            <img width="300px" class="i d-block mx-auto img-fluid" src="img/star wars peliculas.jpg" alt="home">
         </div>
 
 

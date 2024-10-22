@@ -42,7 +42,7 @@ function buscar_productos($conn, $termino_busqueda){
      ";
 
 // consultas para buscar naves
-$sqlNave = "SELECT 'naves' as tabla, id, nombre, descripcion, tipo, fabricante, destacado, longitud, velocidad_maxima, armamento, capacidad, imagen FROM naves
+$sqlNave = "SELECT 'naves' as tabla, id, nombre, descripcion, tipo, fabricante, longitud, velocidad_maxima, armamento, capacidad, imagen FROM naves
 WHERE LOWER (nombre) LIKE '%$termino_busqueda%'
  ";
 
