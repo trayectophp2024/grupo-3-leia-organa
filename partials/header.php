@@ -20,8 +20,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-
-
 </head>
 
 <body class="bg-secondary">
@@ -29,9 +27,9 @@
   <header>
     <div class="header-superior">
 
-      <nav class="navbar  px-5" style="background-color: #211516;">
+    <nav class= "navbar navbar-expand-lg" style="background-color: #211516;">
         <div class="container-fluid">
-          <a href="index.php" class="navbar-brand">BIBLIOTECA STAR WARS</a>
+        <a class="navbar-brand" href="index.php"><img width="50" height="50" src="img/st.png" alt="">  BIBLIOTECA STAR WARS  </a>
           <form action="busqueda.php" class="d-flex" role="search">
             <input class="form-control " name="q" type="search" placeholder="Buscar en la pagina" aria-label="Search">
             <button class="btn btn-light px-3 " type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>

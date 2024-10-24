@@ -76,4 +76,26 @@ return $resultado;
 }
 
 
+/* 
+SELECT imagen FROM `personajes` 
+Order By rand()
+LIMIT 3
+*/
+
+/* Imagenes random */
+
+function random_img($conn, $tabla){
+
+    //1- Realizar consulta o query
+    $sqlpersonajes = "SELECT imagen FROM " . $tabla . " ORDER BY rand() Limit 3 ";
+
+    // 2- Ejecutar la consulta
+    $result = $conn->query($sqlpersonajes);
+
+    // 3- Retornar y convertir la consulta en un array asociativo
+    return $result->fetch_all(MYSQLI_ASSOC);
+
+}
+
+
 ?>

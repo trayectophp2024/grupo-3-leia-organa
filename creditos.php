@@ -10,16 +10,15 @@
 
          <div class="creditos text-center">
             <h2>DISEÑADORES WEB I</h2>
-            <p>marcelo Yrala</p>
+            <p>Marcelo Yrala</p>
             <p>Angel Gugliuzzo</p>
 
             <h2>PROGRAMADORA</h2>
             <p>Yelitza Lee</p>
 
             <H2>TESTING</H2>
-            <p>Luana</p>
-            <p>Ariela</p>
-            <p>Emiliano</p>
+            <p>Ariela (turno noche)</p>
+            <p>Emiliano M88 (turno noche) </p>
          </div>
 
          
