@@ -40,10 +40,10 @@ echo "</pre>";
         <p class="card-text"><?= $producto['descripcion'] ?></p>
         <p class="card-text"><b>Tipo:</b> <?= $producto['tipo'] ?></p>
         <p class="card-text"><b>Fabricante:</b> <?= $producto['fabricante'] ?></p>
-        <p class="card-text"><b>Longitud:</b> <?= $producto['longitud'] ?></p>
-        <p class="card-text"><b>Velocidad Maxima:</b> <?= $producto['velocidad_maxima'] ?></p>
+        <p class="card-text"><b>Longitud:</b> <?= $producto['longitud'] ?> metros</p>
+        <p class="card-text"><b>Velocidad Maxima:</b> <?= $producto['velocidad_maxima'] ?> km/h</p>
         <p class="card-text"><b>Armamento:</b> <?= $producto['armamento'] ?></p>
-        <p class="card-text"><b>Capacidad:</b> <?= $producto['capacidad'] ?></p>
+        <p class="card-text"><b>Capacidad:</b> <?= $producto['capacidad'] ?> personas</p>
         <a href="previews.php?categoria=naves" class="btn btn-warning">Regresar a Naves</a>
         
       </div>

@@ -44,7 +44,7 @@ if ($termino_busqueda) {
         </div>
 
     <?php }elseif($termino_busqueda){ ?>
-        <p class="text-center text-warning fs-3">No  se encontraron productos para el termino busqueda: <?= $termino_busqueda ?></p>
+        <p class="text-center text-warning fs-3">No  se encontraron resultados para el termino busqueda: <?= $termino_busqueda ?></p>
         <?php }else { ?>
             <p class="text-center text-danger fs-3">El campo de busqueda no puede estar vacio</p>
 

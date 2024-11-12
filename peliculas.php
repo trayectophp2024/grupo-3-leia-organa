@@ -41,7 +41,7 @@ echo "</pre>";
         <p class="card-text"><?= $producto['descripcion'] ?></p>
         <p class="card-text"><b>Director: </b><?= $producto['director'] ?></p>
         <p class="card-text"><b>Año de Extreno: </b><?= $producto['año_extreno'] ?></p>
-        <p class="card-text"><b>Duracion: </b><?= $producto['duracion'] ?></p>
+        <p class="card-text"><b>Duracion: </b><?= $producto['duracion'] ?> minutos</p>
         <a href="previews.php?categoria=peliculas" class="btn btn-warning">Regresar a Peliculas</a>
         
       </div>

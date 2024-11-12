@@ -8,7 +8,12 @@
 
    <div class="linea"></div>
 
-         <div class="creditos text-center">
+       <div class="star-wars">
+        <p>En una galaxia muy, muy lejana...</p>
+    </div>  
+    
+    
+    <div class="creditos text-center">
             <h2>DISEÑADORES WEB I</h2>
             <p>Marcelo Yrala</p>
             <p>Angel Gugliuzzo</p>
@@ -22,9 +27,7 @@
          </div>
 
          
-         <div class="star-wars">
-        <p>En una galaxia muy, muy lejana...</p>
-    </div>
+        
     
     <img class="c" src="img/c2.webp" alt="">
 
